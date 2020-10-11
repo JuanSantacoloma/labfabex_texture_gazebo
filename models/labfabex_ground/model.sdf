@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name='labfabex_ground'>
+
+    <static>1</static>
+    <link name='link'>
+      <pose>8.80372 9.854326 0.0 0.0 0.0 1.57079</pose>
+      <collision name='collision'>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>20.4 20.4</size>
+          </plane>
+        </geometry>
+
+        <surface>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+
+      </collision>
+
+      <visual name='visual'>
+        <cast_shadows>0</cast_shadows>
+
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <!--size>32.28 32.28</size-->
+            <size>20.4 20.4</size>
+          </plane>
+        </geometry>
+
+        <material>
+          <script>
+            <uri>model://labfabex_ground/materials/scripts</uri>
+            <uri>model://labfabex_ground/materials/textures</uri>
+            <name>map</name>
+          </script>
+        </material>
+
+      </visual>
+
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <gravity>1</gravity>
+
+    </link>
+  </model>
+
+</sdf>

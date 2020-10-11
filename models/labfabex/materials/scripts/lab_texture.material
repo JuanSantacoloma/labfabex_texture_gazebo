@@ -1,0 +1,14 @@
+material labfabex/texture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture labfabex_texture_map.png
+
+      }
+    }
+  }
+}

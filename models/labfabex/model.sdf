@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="labfabex">
+    
+    <!-- Model Link  -->
+    <link name="base">
+      <pose>0 0 0 0 0 3.14159</pose>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://labfabex/meshes/labfabex_walls.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <!-- <scale>1 1 1</scale> -->
+            <uri>model://labfabex/meshes/labfabex_walls.dae</uri>
+          </mesh>
+        </geometry>
+        
+        <material>
+          <script>
+            <uri>model://labfabex/materials/textures</uri>
+            <uri>model://labfabex/materials/scripts</uri>
+            <name>labfabex/texture</name>
+          </script>
+
+          <shader type = 'vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <!-- <texture filename="file_path"/> -->
+        </material>
+
+      </visual>
+
+    </link>
+  </model>
+</sdf>
