@@ -1,0 +1,217 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='muebles'>
+    <static> true </static>
+    <link name='mesa_circular'>
+      <pose frame=''>3.3 8.5 0 0 -0 0</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacircular.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacuadrada.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_cuadrada_1'>
+      <pose frame=''>-4.2 4.18832 0 0 -0 0</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacuadrada.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacuadrada.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_caudrada_2'>
+      <pose frame=''>-0.7 -3.4 0 0 -0 0</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacuadrada.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacuadrada.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_caudrada_3'>
+      <pose frame=''>-3.5 -5.2 0 0 -0 0</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacuadrada.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacuadrada.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_caudrada_4'>
+      <pose frame=''>-1.91014 -5.94288 0 0 0 -1.56325</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacuadrada.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacuadrada.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_triangular'>
+      <pose frame=''>-2.51014 -5.94288 0 0 0 -1.56325</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_triangular_1'>
+      <pose frame=''>-1.05359 -1.94449 0 0 -0 0</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_triangular_2'>
+      <pose frame=''>0.124565 -4.2384 0 0 -0 1.58594</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_triangular_3'>
+      <pose frame=''>8.5 9 0 0 0 -3.11436</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_triangular_4'>
+      <pose frame=''>-3.34568 -3.51712 0 0 0 -3.11436</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_tirangular_5'>
+      <pose frame=''>-3.09544 -3.91124 0 0 0 -1.5477</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesacircular.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='mesa_triangular_6'>
+      <pose frame=''>-0.51014 -5.94288 0 0 0 -1.56325</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://muebles/meshes/mesatriangular.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
