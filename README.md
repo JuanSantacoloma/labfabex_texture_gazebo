@@ -4,6 +4,7 @@ This package of ROS have all the information needed for the following result (di
 
 ![result of this package](/result_package.png)
 
+
 ## Building this package
 ### Steps:
 - Clone this repo in your workspace.
@@ -35,3 +36,10 @@ This package of ROS have all the information needed for the following result (di
 `roslaunch labfabex_texture_gazebo labfabex.launch`
 
 - Enjoy
+
+## Acknowledgment:
+This work is possible thanks to:
+
+- Jhon Felipe Delgado 
+- Jhonyfer Angarita
+- Wilmer Garzon
