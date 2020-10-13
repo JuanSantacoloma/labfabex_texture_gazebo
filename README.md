@@ -32,6 +32,6 @@ This package of ROS have all the information needed for the following result (di
 
 - Run this launch
 
-`roslauch labfabex_texture_gazebo labfabex.launch`
+`roslaunch labfabex_texture_gazebo labfabex.launch`
 
 - Enjoy
