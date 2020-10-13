@@ -4,6 +4,13 @@ This package of ROS have all the information needed for the following result (di
 
 ![result of this package](/result_package.png)
 
+## Models in this package:
+
+- Walls and some stairs
+- SCARA
+- Motoman
+- LeadWell
+- Some tables
 
 ## Building this package
 ### Steps:
@@ -36,6 +43,19 @@ This package of ROS have all the information needed for the following result (di
 `roslaunch labfabex_texture_gazebo labfabex.launch`
 
 - Enjoy
+
+## Models that you can contribute
+
+- Multiejes.
+- SPAV.
+- MAYA.
+- JinnFa 32AB.
+- Compresor.
+- Tables.
+- Almacen UN.
+- Pulpo Serigrafico.
+- FDM UN.
+- Banco Neumatico
 
 ## Acknowledgment:
 This work is possible thanks to:
